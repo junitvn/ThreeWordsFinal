@@ -1,0 +1,14 @@
+.create-account-logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	font-size: 44px;
+}
+#create-account-submit-button{
+	flex-basis: 150px;
+}
+#goto-login-button{
+	flex-grow: 1;
+	margin-left: 10px;
+}

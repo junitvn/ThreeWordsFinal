@@ -1,0 +1,214 @@
+.screen-dim{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba( 0, 0, 0, 0.8);
+	z-index: 2;
+}
+.opened-picture-wrapper{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+}
+.instant-picture-wrapper{
+	position: relative;
+	width: 575px;
+	/*height: 550px;*/
+	padding: 25px 25px 40px 25px;
+	background-color: #ffffff;
+	/*box-shadow: 0px 4px 5px -4px rgba( 0, 0, 0,0.72);*/
+}
+.instant-picture{
+	width: 100%;
+}
+.instant-picture > img{
+	width: inherit;
+}
+.instant-picture-beautiful-text-wrapper{
+	display: block;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.instant-picture-beautiful-text-wrapper span{
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8)
+}
+.instant-picture-beautiful-text:hover{
+	cursor: pointer;
+	color: rgba(212, 99, 232, 0.9);
+}
+.right-section-wrapper{
+	width: 300px;
+	height: 500px;
+	background-color: #ffffff;
+	margin-left: 20px;
+}
+.user-information-wrapper{
+	display: block;
+	padding: 20px 20px 0px 20px;
+}
+.glance-information-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#owners-name{
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+#owners-name:hover{
+	text-decoration: underline;
+	color: #D463E8;
+}
+#follow-button{
+	width: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #D463E8;
+	padding: 5px 10px;
+	text-align: center; 
+	border-radius: 100px;
+	border: 1px solid #D463E8;
+}
+#follow-button:hover{
+	cursor: pointer;
+	background: rgba(212, 99, 232, 0.1)
+}
+.dashboard-user-explicit{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	padding: 10px 0px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.dashboard-information-field{
+	flex-basis: 33%;
+	font-weight: bold;
+}
+.dashboard-field-name{
+	font-size: 13px;
+	color: grey;
+	transition: all 0.15s ease-in; 
+}
+.dashboard-information-field:hover{
+	cursor: pointer;
+}
+.dashboard-information-field:hover .dashboard-field-name{
+	color: #e01cff;
+}
+.dashboard-field-value{
+	font-size: 18px;
+	color: #e01cff;
+}
+.comment-section-wrapper{
+	height: 388px;
+}
+.interest-wrapper{
+	padding: 10px 20px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	font-size: 15px;
+}
+.comments-wrapper{
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: rgba(212, 99, 232, 0.1);
+	height: 346px;
+}
+.write-comment-wrapper{
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 5px 20px;
+}
+.user-avatar-tiny{
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.user-avatar-tiny > img{
+	height: inherit;
+	width: inherit;
+	border-radius: inherit;
+}
+.input-3-words{
+	display: flex;
+	flex: 1;
+}
+.input-3-words > input{
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+	padding: 7px 10px 7px 10px;
+	transition: all 0.2s ease-in-out;
+	color: rgba(0, 0, 0, 0.9);
+}
+.input-3-words > input:focus{
+	outline: none;
+	border: 1px solid blue;
+}
+/*.words-remain{
+	position: absolute;
+	top: 18px;
+	right: 32px;
+}*/
+.display-comments-wrapper{
+	height: 301px;	
+	padding: 5px 20px;
+	color: rgba(0, 0, 0, 0.5);
+	overflow-y: scroll;
+}
+.comment{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 5px 0px;
+}
+.comment:last-child{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.word{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;	
+}
+.comment:hover{
+	cursor: pointer;
+	color: rgba(212, 99, 232, 0.9);	
+}
+.vote-count-display{
+	display: flex;
+	align-items: center;
+}
+.vote-number{
+	width: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	/*margin-left: 10px;*/
+	text-align: center;
+}
+.catgory-notion-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px 0px 10px 10px;
+}

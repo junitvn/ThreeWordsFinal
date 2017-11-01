@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //<![CDATA[
+        function logError(b,d,e,c,a){try{var g,h="";a=a||b;b=(a.message||a.description||b).toString();stack=(a.stack||a.backtrace||a.stacktrace||"").toString();g=a.target||"";d=(d||a.fileName||a.sourceURL||g.src).toString();c=c||window.event&&window.event.errorCharacter;e=(e||a.lineNumber||a.line).toString()+(c?":"+c:"");try{localStorage.setItem("test","test"),localStorage.removeItem("test"),(new FormData).append("test","test")}catch(l){h="1"}var f,k={m:b,s:stack,f:d||"",l:e||"",u:document.location,w:h};
+            b="";for(f in k)b+=f+"="+encodeURIComponent(k[f])+"&";(new Image).src="/home/jserror?"+b}catch(l){}}window.onerror=logError;
+
+        //]]>
+    </script>
+    <title>Sign up | ASKfm</title>
+    <meta name="description" content="Find out what people want to know about you. Ask questions and get answers on any topic!">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="pxE9T7nvA4M8mZP5skjDcTG+Wee9+B7TAOhDFg4Bhu4+xHJph9iCdjDC6C5L308WPBD4PagpG7zaXMaFrEVOGQ==">
+
+    <link rel="stylesheet" media="all" href="https://static.ask.fm/assets/application_ltr-4560ca06caf555889eb097b4e0658be0a57171cb37ab92494016b5ab8d262c0c.css" data-turbolinks-track="true">
+    <script src="https://static.ask.fm/assets/application-0598b2d8c4a61be4a1b9fd47b67fedae01a92dc9061a06a4b9a9dcc0827e7c3f.js" data-turbolinks-track="true"></script>
+    <script src="https://secure.quantserve.com/aquant.js?a=p-r1DAFnUnQgqGA" async="" type="text/javascript"></script></head>
+<body class="contentBody dialogBody theme-0" data-id="signup/new" data-js-perf-url="/home/jsperf" style=""><script>
+    window.Config && window.Config.init({"poller:interval":30000,"poller:cache_limit":10,"poller:title":true,"mass_ask_limit":50,"flash:delay":3000,"gtm":false,"uploader:max_size":8388608,"uploader:resize:enabled":false,"uploader:resize:max_size":13000000,"uploader:resize:max_dimension":2048,"page:category":"Signup","page:type":"New","page:user_id":null});
+</script>
+<div id="loaderMother" style="display:none"></div>
+<div id="topMenu" class="topMenu">
+
+    <div class="rsp-eql-desktop">
+        <div class="topBar rsp-container">
+            <a class="icon-askfm-logo topBar-left" href="/"></a>
+
+
+            <div class="topBar-right">
+                <a class="btn-action plain" href="/login">Log in</a>
+
+            </div>
+            <h1>Sign up</h1>
+
+        </div>
+    </div>
+
+    <div class="rsp-lte-tablet rsp-container">
+        <div class="topBar">
+
+            <div class="topBar-left">
+                <a title="Back" class="btn-action-icon icon-back" href="/"></a>
+            </div>
+            <div class="topBar-right">
+                <a class="btn-action plain" href="/login">Log in</a>
+
+            </div>
+            <h1>Sign up</h1>
+
+        </div>
+
+    </div>
+
+
+
+    <div style="display:none" class="flash-message notice">
+        <p class="util-relative rsp-container">
+            <a href="" class="icon-close" data-action="FlashHide"></a>
+
+        </p></div>
+
+</div>
+<div id="contentArea" class="rsp-container">
+
+    <div class="main-content util-clearfix">
+        <div class="rsp-gte-mobile main-column util-clearfix">
+
+            <div class="signupConnected">
+                <a href="#" class="icon-close" data-action="ButtonPostOnce" data-url="/signup/reset">
+                </a>
+                <div style="background-image:url(https://graph.facebook.com/1179511872149207/picture)" class="signupConnected-image">
+                </div>
+                <div class="signupConnected-name">Leemer D Sabo</div>
+            </div>
+
+            <form id="signupForm" autocomplete="off" class="edit_user" data-action="SubmitWithTimezone" action="/signup/facebook" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="6EDHRCqRvx1py2BmFNFyeWVUFTX1JBUyuZAbIxuO9nFxlYhiFKY+6GWQG7HtRv4eaPq07+D1EF1jJJ6wuco+hg==">
+
+                <input type="hidden" name="user[tz_id]" id="user_tz_id">
+                <input type="hidden" name="user[gmt_offset]" id="user_gmt_offset">
+
+                <div class="inputFormBox">
+                    <div class="inputFormPadding">
+                        <input type="email" class="inputForm" maxlength="50" placeholder="Email" autofocus="autofocus" data-input="LoginSuggest" size="50" value="boyvipnobita@yahoo.com" name="user[email]" id="user_email">
+                    </div>
+                    <div class="inputFormPadding">
+                        <input class="inputForm" maxlength="30" placeholder="Full name" autocomplete="name" data-input="LoginSuggest" size="30" type="text" value="Leemer D Sabo" name="user[name]" id="user_name">
+                    </div>
+                    <div class="inputFormPadding suggest-input has-suggestions">
+                        <input class="inputForm" maxlength="40" placeholder="Username" autocomplete="username" data-input="LoginCheck" data-url="/signup/suggest" size="40" type="text" name="user[login]" id="user_login">
+                        <a class="icon-reload" data-action="LoginReset" href="#"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 inputFormPadding">
+                        a
+                    </div>
+                    <div class="col-sm-4 inputFormPadding">
+                        b
+                    </div>
+                    <div class="col-sm-4 inputFormPadding">
+                        c
+                    </div>
+                </div>
+
+
+                <input type="hidden" name="user[born_at_day]" value="22">
+                <input type="hidden" name="user[born_at_month]" value="2">
+                <input type="hidden" name="user[born_at_year]" value="1996">
+
+                <!--<div class="simpleFormItem">-->
+                    <!--<h3 class="simpleFormLabel">Gender</h3>-->
+                    <!--<select class="selectForm" name="user[gender_id]" id="user_gender_id"><option value="1">Female</option>-->
+                        <!--<option selected="selected" value="2">Male</option></select>-->
+                <!--</div>-->
+
+                <!--<div class="simpleFormItem">-->
+                    <!--<h3 class="simpleFormLabel">Language</h3>-->
+                    <!--<select class="selectForm" name="user[language_code]" id="user_language_code"><option dir="ltr" value="az">Azərbaycan</option>-->
+                        <!--<option dir="ltr" value="id">Bahasa Indonesia</option>-->
+                        <!--<option dir="ltr" value="ms">Bahasa Melayu</option>-->
+                        <!--<option dir="ltr" value="bs">Bosanski</option>-->
+                        <!--<option dir="ltr" value="da">Dansk</option>-->
+                        <!--<option dir="ltr" value="de">Deutsch</option>-->
+                        <!--<option dir="ltr" value="et">Eesti</option>-->
+                        <!--<option dir="ltr" selected="selected" value="en">English</option>-->
+                        <!--<option dir="ltr" value="es">Español</option>-->
+                        <!--<option dir="ltr" value="tl">Filipino</option>-->
+                        <!--<option dir="ltr" value="fr">Français</option>-->
+                        <!--<option dir="ltr" value="hr">Hrvatski</option>-->
+                        <!--<option dir="ltr" value="it">Italiano</option>-->
+                        <!--<option dir="ltr" value="lv">Latviešu</option>-->
+                        <!--<option dir="ltr" value="lt">Lietuvių</option>-->
+                        <!--<option dir="ltr" value="hu">Magyar</option>-->
+                        <!--<option dir="ltr" value="nl">Dutch</option>-->
+                        <!--<option dir="ltr" value="nn">Norsk</option>-->
+                        <!--<option dir="ltr" value="pl">Polski</option>-->
+                        <!--<option dir="ltr" value="pt">Português</option>-->
+                        <!--<option dir="ltr" value="pt-BR">Português (Brasil)</option>-->
+                        <!--<option dir="ltr" value="ro">Română</option>-->
+                        <!--<option dir="ltr" value="sk">Slovenčina</option>-->
+                        <!--<option dir="ltr" value="sl">Slovenščina</option>-->
+                        <!--<option dir="ltr" value="fi">Finnish</option>-->
+                        <!--<option dir="ltr" value="sv">Svenska</option>-->
+                        <!--<option dir="ltr" value="vi">Tiếng Việt</option>-->
+                        <!--<option dir="ltr" value="tr">Türkçe</option>-->
+                        <!--<option dir="ltr" value="cs">Čeština</option>-->
+                        <!--<option dir="ltr" value="el">Ελληνικά</option>-->
+                        <!--<option dir="ltr" value="be">Беларуская</option>-->
+                        <!--<option dir="ltr" value="bg">Български</option>-->
+                        <!--<option dir="ltr" value="mk">Македонски</option>-->
+                        <!--<option dir="ltr" value="mn">Монгол хэл</option>-->
+                        <!--<option dir="ltr" value="ru">Русский</option>-->
+                        <!--<option dir="ltr" value="sr">Српски</option>-->
+                        <!--<option dir="ltr" value="uk">Українська</option>-->
+                        <!--<option dir="ltr" value="hy">հայերեն</option>-->
+                        <!--<option dir="rtl" value="ar">العربية</option>-->
+                        <!--<option dir="ltr" value="bn">বাংলা</option>-->
+                        <!--<option dir="rtl" value="he">עברית</option>-->
+                        <!--<option dir="ltr" value="hi">मानक हिन्दी</option>-->
+                        <!--<option dir="rtl" value="fa">پارسی</option>-->
+                        <!--<option dir="ltr" value="th">ภาษาไทย</option>-->
+                        <!--<option dir="ltr" value="ka">ქართული</option>-->
+                        <!--<option dir="ltr" value="ja">日本語</option>-->
+                        <!--<option dir="ltr" value="zh-TW">正體中文</option>-->
+                        <!--<option dir="ltr" value="zh-CN">中文</option>-->
+                        <!--<option dir="ltr" value="ko">한국어</option></select>-->
+                <!--</div>-->
+
+                <div class="captcha-container" style="display:none" data-url="/signup/captcha"></div>
+
+                <div class="simpleFormItem" id="signupFooter">
+                    By signing up you agree to our <a target="_blank" rel="noopener" href="https://about.ask.fm/terms/?lang=en">Terms</a> and <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>
+                    <input type="submit" class="btn-primary-wide" value="Sign up">
+                    <p>
+                        Your name and any information posted on your profile will be visible to other users. Information you provide may be shared with third parties as explained in our <a target="_blank" rel="noopener" href="https://about.ask.fm/privacy-policy/?lang=en">Privacy policy</a>. Please don’t provide any information you don’t want shared.
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<noscript>&lt;img src="//pixel.quantserve.com/pixel/p-r1DAFnUnQgqGA.gif?labels=_fp.event.Default" style="display:none;" border="0" height="1" width="1" alt="Quantcast"/&gt;</noscript>
+
+
+
+</body>
+</html>
